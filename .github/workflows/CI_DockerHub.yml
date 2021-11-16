@@ -18,7 +18,6 @@ jobs:
           distribution: 'adopt'
           server-id: github
           settings-path: ${{ github.workspace }}
-				
       - name: set up gradle
         uses: gradle/gradle-build-action@v2
         with:
