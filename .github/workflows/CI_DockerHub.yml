@@ -1,7 +1,7 @@
 name: CI con gradle
 
 on:
-	push:
+push:
 		branches: [ master ]
 	workflow_dispatch:
 	
